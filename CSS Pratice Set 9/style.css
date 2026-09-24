@@ -1,0 +1,43 @@
+/* Normal div styling */
+.box {
+    width: 80%;
+    height: 200px;
+    margin: 50px auto;
+    
+    background-color: blue;
+    color: white;
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    font-size: 30px;
+}
+
+
+@media (max-width: 1080px) {
+    .box {
+        background-color: green;
+    }
+}
+
+
+@media (min-width: 1090px) and (max-width: 1250px) {
+    .box {
+        background-color: pink;
+    }
+}
+
+
+@media (min-width: 1920px) and (max-width: 1440px) {
+    .box {
+        background-color: red;
+    }
+}
+
+
+@media (min-width: 560px) and (max-width: 768px) {
+    .box {
+        background-color: blue;
+    }
+}
