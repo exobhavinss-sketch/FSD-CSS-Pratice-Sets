@@ -4,6 +4,33 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content ="width=device-width , initial-scale=1.0">
 	<title>HTML</title>
+	<style>
+		img, video, audio, iframe {
+			display: block;
+			margin: 0 auto;
+		}
+		figure {
+			margin: 0 auto;
+		}
+		img {
+			width: 400px;
+		}
+		.image-title {
+			text-align: center;
+			font-size: 22px;
+			font-weight: bold;
+			text-decoration: underline;
+			font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+			margin: 10px 0;
+		}
+		figcaption {
+			text-align: center;
+			font-size: 20px;
+			font-weight: bold;
+			text-decoration: underline;
+			font-family: 'Comic Sans MS', 'Comic Sans', cursive;
+		}
+	</style>
 </head>
 <body>
 	<header>
@@ -65,24 +92,18 @@
 		<dt><b>RDR</b></dt>
 		<dd>Red Dead Redemption</dd>
 	</dl><hr>
-	<h2>Lockheed Martian F-117 NightHawk</h2>
-	<img src ="Images/F117 Nighthawk.jpg" alt = "F-117 NightHawk"
-		width="300" loading="lazy"><hr>
-	<h2>Lockheed Martian SR 71 BlackBird</h2>
-	<img src ="Images/SR 71 BlackBird.jpg" alt = "SR 71 BlackBird"
-		width="300" loading="lazy"><hr>
-	<h2>SpaceX - American Rocket Company Founded By <b>Elon Musk.</b></h2>
-	<img src ="Images/SpaceX.jpg" alt = "SpaceX"
-		width="300" loading="lazy"><hr>
-	<h2>Tesla Model S P-100D</h2>
-	<img src ="Images/Tesla Model S P-100D.jpg" alt = "Tesla Model S P-100D"
-		width="300" loading="lazy"><hr>
-	<h2>Nvidia <b>Founded By Jensun Huang.</b></h2>
-	<img src ="Images/Nvidia.jpg" alt = "Nvidia"
-		width="300" loading="lazy"><hr>
-	<h2>Northrop Grumann - B2 Spirit</h2>
-	<img src ="Images/B2 Spirit.jpg" alt = "B2 Spirit"
-		width="300" loading="lazy"><br>
+	<div class="image-title">Lockheed Martian F-117 NightHawk</div>
+	<img src ="Images/F117 Nighthawk.jpg" alt = "F-117 NightHawk" loading="lazy"><hr>
+	<div class="image-title">Lockheed Martian SR 71 BlackBird</div>
+	<img src ="Images/SR 71 BlackBird.jpg" alt = "SR 71 BlackBird" loading="lazy"><hr>
+	<div class="image-title">SpaceX - American Rocket Company Founded By <b>Elon Musk.</b></div>
+	<img src ="Images/SpaceX.jpg" alt = "SpaceX" loading="lazy"><hr>
+	<div class="image-title">Tesla Model S P-100D</div>
+	<img src ="Images/Tesla Model S P-100D.jpg" alt = "Tesla Model S P-100D" loading="lazy"><hr>
+	<div class="image-title">Nvidia <b>Founded By Jensun Huang.</b></div>
+	<img src ="Images/Nvidia.jpg" alt = "Nvidia" loading="lazy"><hr>
+	<div class="image-title">Northrop Grumann - B2 Spirit</div>
+	<img src ="Images/B2 Spirit.jpg" alt = "B2 Spirit" loading="lazy"><br>
 	</section><hr>
 		<section id = "Lockheed Martian">
 			<h2>Lockheed Martian</h2>
@@ -135,14 +156,27 @@ In July 2002, Nvidia acquired Exluna for an undisclosed sum. Exluna made softwar
 </form>
 </fieldset><br><br><br>
 
-	<video width="700" controls>
-    	<source src="F:\Guitar Viedo Songs\Hot Stuff - Instrumental.mp4" type="video/mp4">
-	</video><hr>
+	<div style="width: 700px; max-width: 100%; margin: 0 auto;">
+		<figure style="margin: 0;">
+			<video width="700" controls style="display: block; max-width: 100%; margin: 0 auto;">
+				<source src="Video/Cheri Cheri Lady - Mordern Talking - {Live Version}.mp4" type="video/mp4">
+			</video>
+			<figcaption style="margin-top: 8px; text-align: center; font-size: 20px; font-weight: bold; text-decoration: underline; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Cheri Cheri Lady - Mordern Talking</figcaption>
+		</figure>
+	</div><hr>
 
-	<audio width="700" controls>
-    	<source src="F:\Musical Instruments\Thiller - Michael Jackson - Piano.mp3" type="audio/mp3">
-	</audio><hr>
-	<iframe src= "https://en.wikipedia.org/wiki/HTML" width = "700" height = "700">
+	<div style="width: 700px; max-width: 100%; margin: 0 auto;">
+		<figure style="margin: 0;">
+			<audio controls style="display: block; width: 100%; margin: 0 auto;">
+				<source src="Audio/Blood On The Dance Floor - Michael Jackson - {Official}.mp3" type="audio/mpeg">
+			</audio>
+			<figcaption style="margin-top: 8px; text-align: center; font-size: 20px; font-weight: bold; text-decoration: underline; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Blood On The Dance Floor - Micheal Jackson</figcaption>
+		</figure>
+	</div><hr>
+	<figure style="margin: 0 auto; width: 700px; max-width: 100%;">
+		<iframe src="https://en.wikipedia.org/wiki/Shuji_Nakamura" width="700" height="700" title="Shuji Nakamura biography" style="display: block; max-width: 100%; margin: 0 auto;"></iframe>
+		<figcaption style="margin-top: 8px; text-align: center; font-size: 20px; font-weight: bold; text-decoration: underline; font-family: 'Comic Sans MS', 'Comic Sans', cursive;">Shuji Nakamura - The Inventor of Blue Led</figcaption>
+	</figure><hr>
 
 	</main>
 	<aside>
