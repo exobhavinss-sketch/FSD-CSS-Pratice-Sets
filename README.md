@@ -62,9 +62,10 @@ HTML & CSS & JAVASCRIPT/
 - Styling creativity and consistency
 
 ### CSS Pratice Set 9
-- Final CSS practice set
-- Complex visual design and layout application
-- Consolidation of frontend styling skills
+- Responsive web design with media queries
+- Breakpoint-based styling for different screen sizes
+- Color changes triggered by viewport width
+- Practice with layout centering and adaptive design
 
 ### HyperText Markup Language Pratice
 - HTML structure exercises
