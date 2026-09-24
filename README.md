@@ -15,6 +15,7 @@ HTML & CSS & JAVASCRIPT/
 ├── CSS Pratice Set 7/
 ├── CSS Pratice Set 8/
 ├── CSS Pratice Set 9/
+├── CSS Pratice Set 10/
 ├── HyperText Markup Language Pratice/
 └── README.md
 ```
@@ -66,6 +67,12 @@ HTML & CSS & JAVASCRIPT/
 - Breakpoint-based styling for different screen sizes
 - Color changes triggered by viewport width
 - Practice with layout centering and adaptive design
+
+### CSS Pratice Set 10
+- CSS animation fundamentals
+- Spinner/loader design using border styling
+- Rotation animation with keyframes
+- Centering and visual effects in a simple layout
 
 ### HyperText Markup Language Pratice
 - HTML structure exercises
